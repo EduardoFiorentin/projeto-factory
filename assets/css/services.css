@@ -1,0 +1,80 @@
+.services {
+    max-width: 300px;
+    margin: auto;
+    max-width: 1080px;
+    padding-top: 10%;
+}
+
+.service {
+    margin-bottom: 20%;
+    font-family: var(--font-title);
+}
+.service__image-automotive {
+    background-image: url('../images/service__image-automotive.jpg');
+    background-position: center;
+}
+.service__image-power {
+    background-image: url('../images/service__image-power.jpg');
+    background-position: bottom;
+}
+.service__image-construction {
+    background-image: url('../images/service__image-construction.jpg');
+}
+.service__image-material {
+    background-image: url('../images/service__image-material.jpg');
+}
+.service__image-agriculture {
+    background-image: url('../images/service__image-agriculture.jpg');
+    background-size: cover;
+    background-position-x: right;
+    background-position-y: center;
+}
+.service__image-petroleum {
+    background-image: url('../images/service__image-petroleum.jpg');
+    background-position-y: center;
+}
+.service__image {
+    height: 350px;
+    width: auto;
+    background-size: cover;
+    margin: auto;
+}
+
+.service__title {
+    font-size: 1.5rem;
+    padding: 5%;
+    text-align: center;
+}
+.service__text {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    text-align: center;
+    max-width: 350px;
+    margin: auto;
+}
+.service__link-p {
+    margin-top: 5%;
+    text-align: center;
+
+}
+.service__link {
+    text-decoration: none;
+    color: var(--color-yellow);
+    text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+    .services {
+        display: flex;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+    .service {
+        width: calc(33.33% - 1rem);
+        padding-right: 1rem;
+    }
+    .service__image {
+        width: calc(100% - 1rem);
+    }
+
+}

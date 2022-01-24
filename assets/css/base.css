@@ -1,0 +1,21 @@
+:root {
+    --font-title: Arial, Helvetica, sans-serif;
+
+    --color-yellow: #ffce3e;
+    --color-darkgray: #454545;
+    --color-lightgray: #f2f2f2;
+}
+
+.button {
+    padding: 12px 20px;
+    border: none;
+}
+
+.background__lightgray {
+    background-color: var(--color-lightgray);
+    padding-bottom: 10%;
+}
+.background__yellow {
+    background-color: var(--color-yellow);
+}
+

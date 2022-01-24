@@ -1,0 +1,14 @@
+.footer {
+    background-color: rgb(12, 12, 12);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.footer__p {
+    color: white;
+    padding: 10px;
+}
+
+.footer__a {
+    color: white;
+}

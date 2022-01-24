@@ -1,0 +1,40 @@
+.data {
+    display: flex;
+    flex-direction: column;
+    max-width: 1080px;
+    margin: 10% auto;
+    padding: 25% 0;
+}
+
+.data__div{
+    font-family: var(--font-title);
+    max-width: 1080px;
+    margin: auto;
+    text-align: center;
+}
+
+.data__number {
+    font-weight: bolder;
+    font-size: 4rem;
+    padding: 30% 0;
+}
+.data__stat {
+    padding-bottom: 50%;
+}
+
+@media (min-width: 768px) {
+    .data {
+        display: grid;
+        grid-template-rows: 50% 50%;
+        grid-template-columns: 50% 50%;
+        padding: 10% 0;
+    }
+}
+
+@media (min-width: 1080px) {
+    .data {
+        display: flex;
+        flex-direction: row;
+        padding: 5% 0;
+    }
+}

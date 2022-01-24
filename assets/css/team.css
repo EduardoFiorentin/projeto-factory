@@ -1,0 +1,66 @@
+.team {
+    font-family: var(--font-title);
+    margin-top: 10%;
+}
+.team__txt {
+    text-align: center;
+
+}
+.team__title {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.team__image {
+    height: 300px;
+    width: 80%;
+    margin: auto;
+}
+.team__worker {
+    margin-top: 10%;
+}
+.team__worker--president-image {
+    background-image: url('../images/team__worker--president.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 400px;
+}
+.team__worker--manangment-image {
+    background-image: url('../images/team__worker--managment.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 400px;
+}
+.team__worker--director-image {
+    background-image: url('../images/team__worker--director.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    max-width: 400px;
+}
+
+.team__worker-name {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1.5rem;
+}
+.team__worker-function {
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: 0.8rem;
+    color: #323232;
+}
+
+
+@media (min-width: 768px) {
+    .team {
+        max-width: 1080px;
+        margin: 10% auto;
+    }
+    .team__workers {
+        display: flex;
+    }
+    .team__worker {
+        width: 33.3%;
+    }
+}
